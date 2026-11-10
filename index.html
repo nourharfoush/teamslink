@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>مجموعات منصة الجامع الأزهر للمقيمين بمصر – دفعة نوفمبر 2026</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --green-900:#06301f; --green-800:#0a4a31; --green-700:#0f6342; --green-600:#157a52;
+  --gold:#c9a227; --gold-light:#e8cf7a; --gold-dark:#8f6f0e;
+  --cream:#fbf6e7; --ink:#1a1a1a; --muted:#4d4d4d;
+  --body-font:'Cairo','Segoe UI',Tahoma,'Noto Naskh Arabic',Arial,sans-serif;
+  --title-font:'Amiri','Traditional Arabic','Times New Roman',serif;
+}
+*{box-sizing:border-box}
+html{font-size:18px}
+body{
+  margin:0; font-family:var(--body-font); color:var(--ink); line-height:1.8; background-color:var(--cream);
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='none' stroke='%23c9a227' stroke-opacity='.22' stroke-width='1.2'%3E%3Cpath d='M40 6l8.5 20.5L70 18l-8.5 21.5L74 40l-12.5.5L70 62l-21.5-8.5L40 74l-8.5-20.5L10 62l8.5-21.5L6 40l12.5-.5L10 18l21.5 8.5z'/%3E%3Ccircle cx='40' cy='40' r='9'/%3E%3C/g%3E%3C/svg%3E");
+  min-height:100vh; display:flex; flex-direction:column;
+}
+header{
+  position:relative; text-align:center; color:#fff; padding:28px 16px 70px;
+  background:radial-gradient(ellipse at top,rgba(232,207,122,.18),transparent 60%),linear-gradient(180deg,var(--green-900),var(--green-700));
+  border-bottom:6px solid var(--gold);
+}
+header::before{
+  content:""; position:absolute; inset:0; opacity:.5; pointer-events:none;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='none' stroke='%23e8cf7a' stroke-opacity='.18' stroke-width='1.2'%3E%3Cpath d='M40 6l8.5 20.5L70 18l-8.5 21.5L74 40l-12.5.5L70 62l-21.5-8.5L40 74l-8.5-20.5L10 62l8.5-21.5L6 40l12.5-.5L10 18l21.5 8.5z'/%3E%3Ccircle cx='40' cy='40' r='9'/%3E%3C/g%3E%3C/svg%3E");
+}
+header>*{position:relative}
+.bismillah{font-family:var(--title-font); font-size:1.7rem; color:var(--gold-light); margin:0 0 14px}
+.mihrab{
+  max-width:780px; margin:0 auto; padding:26px 22px 24px;
+  border:3px solid var(--gold); border-radius:200px 200px 18px 18px / 120px 120px 18px 18px;
+  background:rgba(6,48,31,.55); box-shadow:0 0 0 6px rgba(201,162,39,.25),0 14px 30px rgba(0,0,0,.3);
+}
+.mihrab .icon{display:block; margin:0 auto 6px}
+h1{font-family:var(--title-font); font-weight:700; font-size:2.2rem; line-height:1.5; margin:0}
+.sub{margin:6px 0 0; color:var(--gold-light); font-size:1.15rem; font-weight:600}
+.batch{display:inline-block; margin-top:10px; padding:4px 26px; font-weight:700; font-size:1.2rem; color:var(--green-900);
+  background:linear-gradient(180deg,var(--gold-light),var(--gold)); border-radius:40px; border:2px solid var(--gold-dark)}
+main{flex:1; width:100%; max-width:1180px; margin:-44px auto 0; padding:0 16px 40px; position:relative}
+.panel{background:#fff; border:2px solid var(--gold); border-radius:18px; padding:22px; box-shadow:0 8px 24px rgba(6,48,31,.15)}
+.stats{display:grid; grid-template-columns:repeat(auto-fit,minmax(130px,1fr)); gap:10px; margin-bottom:18px}
+.stat{background:var(--cream); border:1.5px solid var(--gold); border-radius:12px; text-align:center; padding:8px 6px}
+.stat b{display:block; font-size:1.7rem; color:var(--green-800); line-height:1.3}
+.stat span{font-size:.95rem; color:var(--muted); font-weight:600}
+.controls{display:grid; grid-template-columns:2fr 1fr 1fr auto; gap:10px}
+label.f{display:block; font-weight:700; font-size:.95rem; color:var(--green-800); margin-bottom:2px}
+input[type=search],select{
+  width:100%; font:inherit; font-size:1.1rem; font-weight:600; padding:11px 14px; border:2px solid var(--green-700); border-radius:12px;
+  background:#fffef9; color:var(--ink);
+}
+input:focus,select:focus{outline:3px solid rgba(201,162,39,.55); border-color:var(--gold-dark)}
+button.reset{font:inherit; font-size:1.05rem; font-weight:800; padding:11px 22px; border-radius:12px; cursor:pointer; color:var(--green-900);
+  background:#fff; border:2px solid var(--gold-dark); align-self:end}
+button.reset:hover{background:var(--cream)}
+.count{margin:16px 2px 0; font-weight:700; color:var(--green-800)}
+#grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(330px,1fr)); gap:18px; margin-top:16px}
+.group{background:#fff; border:2px solid var(--green-700); border-radius:16px; overflow:hidden; box-shadow:0 5px 14px rgba(6,48,31,.13); display:flex; flex-direction:column}
+.g-top{background:linear-gradient(180deg,var(--green-800),var(--green-900)); color:#fff; padding:10px 16px; border-bottom:4px solid var(--gold); display:flex; align-items:center; gap:12px}
+.num{
+  width:52px; height:52px; border-radius:50%; flex:0 0 auto; display:flex; align-items:center; justify-content:center;
+  font-weight:800; font-size:1.5rem; color:var(--green-900); background:linear-gradient(180deg,var(--gold-light),var(--gold)); border:2px solid var(--gold-dark)
+}
+.g-title{font-family:var(--title-font); font-size:1.5rem; font-weight:700}
+.g-body{padding:12px 16px 4px; flex:1}
+.role{padding:7px 0; border-bottom:1px dashed #d8cda3}
+.role:last-child{border-bottom:0}
+.role .k{font-size:.9rem; color:var(--gold-dark); font-weight:700}
+.role .v{font-size:1.1rem; font-weight:700; color:var(--green-900); line-height:1.5}
+.actions{display:flex; gap:10px; padding:12px 16px 16px}
+a.teams{
+  flex:1; display:flex; align-items:center; justify-content:center; text-decoration:none; font-weight:800; font-size:1.05rem; color:var(--green-900);
+  padding:11px 12px; border-radius:12px; background:linear-gradient(180deg,var(--gold-light),var(--gold)); border:2px solid var(--gold-dark); box-shadow:0 3px 0 var(--gold-dark);
+}
+a.teams:hover{filter:brightness(1.05)}
+button.copy{font:inherit; font-weight:800; font-size:1rem; padding:11px 14px; border-radius:12px; cursor:pointer; color:var(--green-800); background:#fff; border:2px solid var(--green-700)}
+button.copy:hover{background:var(--cream)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--green-700); outline-offset:2px}
+.empty{grid-column:1/-1; text-align:center; padding:26px; font-weight:700; font-size:1.15rem; background:#fff8dd; border:2px solid var(--gold); border-radius:14px}
+#toast{position:fixed; bottom:24px; left:50%; transform:translateX(-50%) translateY(30px); opacity:0; transition:.25s; background:var(--green-900); color:#fff; padding:10px 22px;
+  border-radius:30px; border:2px solid var(--gold); font-weight:700; pointer-events:none; z-index:9}
+#toast.show{opacity:1; transform:translateX(-50%) translateY(0)}
+footer{background:var(--green-900); color:var(--gold-light); text-align:center; padding:18px 12px; border-top:5px solid var(--gold)}
+footer small{display:block; color:#cfe3d8; font-size:.9rem}
+@media (max-width:820px){ .controls{grid-template-columns:1fr 1fr} .controls .s{grid-column:1/-1} button.reset{grid-column:1/-1} }
+@media (max-width:560px){
+  html{font-size:17px} h1{font-size:1.6rem}
+  .mihrab{border-radius:120px 120px 16px 16px / 80px 80px 16px 16px; padding:22px 14px 20px}
+  .controls{grid-template-columns:1fr} #grid{grid-template-columns:1fr}
+}
+@media print{ header,.controls,.actions,#toast,footer{display:none} body{background:#fff} .group{break-inside:avoid} #grid{grid-template-columns:1fr 1fr} }
+</style>
+</head>
+<body>
+<header>
+  <p class="bismillah">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+  <div class="mihrab">
+    <svg class="icon" width="56" height="56" viewBox="0 0 80 80" aria-hidden="true"><g fill="none" stroke="#e8cf7a" stroke-width="2.4"><path d="M40 6l8.5 20.5L70 18l-8.5 21.5L74 40l-12.5.5L70 62l-21.5-8.5L40 74l-8.5-20.5L10 62l8.5-21.5L6 40l12.5-.5L10 18l21.5 8.5z"/><circle cx="40" cy="40" r="9"/></g></svg>
+    <h1>مجموعات منصة الجامع الأزهر للمقيمين بمصر</h1>
+    <p class="sub">المشرفون والمنسقون والمحفظون وروابط التيمز</p>
+    <span class="batch">دفعة نوفمبر 2026</span>
+  </div>
+</header>
+
+<main>
+  <section class="panel">
+    <div class="stats" id="stats"></div>
+    <div class="controls">
+      <div class="s"><label class="f" for="q">بحث (رقم المجموعة أو أي اسم)</label>
+        <input type="search" id="q" placeholder="مثال: 12 أو اسم المنسق أو المحفظ" autocomplete="off"></div>
+      <div><label class="f" for="fs">المشرف العلمي</label><select id="fs"></select></div>
+      <div><label class="f" for="ft">المشرف التقني</label><select id="ft"></select></div>
+      <button class="reset" id="reset" type="button">إعادة ضبط</button>
+    </div>
+    <p class="count" id="count" aria-live="polite"></p>
+    <div id="grid"></div>
+  </section>
+</main>
+
+<footer>
+  الجامع الأزهر الشريف
+  <small>منصة الجامع الأزهر للمقيمين بمصر – دفعة نوفمبر 2026</small>
+</footer>
+<div id="toast" role="status"></div>
+<noscript><p style="text-align:center;color:#8a1c1c;font-weight:700">يلزم تفعيل JavaScript لاستخدام هذه الصفحة.</p></noscript>
+
+<script>
+/* [رقم المجموعة، المشرف العلمي، المشرف التقني، المحفظ، المنسق، رابط تيمز] */
+const ROWS = [[1,"على عبدالوهاب محمد علام","بسام عبدالستار زيدان","صابر محمد السعيد عطية","سيد عبدالله سيد عبد الله","https://teams.microsoft.com/meet/3526034649906771?p=2WvGuTfTwTlfQ2987F"],[2,"على عبدالوهاب محمد علام","بسام عبدالستار زيدان","محمود عبد الرؤف مسعود خلف","محمد عبد الله محمد إبراهيم","https://teams.microsoft.com/meet/3787919877664835?p=PcrW6NbLe9BTYp8Lc6"],[3,"على عبدالوهاب محمد علام","بسام عبدالستار زيدان","عمر حسن عشماوي","أبو الوفاء يحيى على حفنى","https://teams.microsoft.com/meet/3529102660749838?p=8FZtyMa5KPLDGqWw1c"],[4,"على عبدالوهاب محمد علام","بسام عبدالستار زيدان","يوسف سعد عوض سعد خميس","تامر السيد حسن خضر","https://teams.microsoft.com/meet/3375639391854257?p=xCsTcujJAmi9sHEs1T"],[5,"على عبدالوهاب محمد علام","بسام عبدالستار زيدان","أحمد على أبو اليزيد","إبراهيم محمود محمد عبدالغني","https://teams.microsoft.com/meet/3106498420750106?p=xbZJeMtisuXDoh3iR9"],[6,"على عبدالوهاب محمد علام","بسام عبدالستار زيدان","أسماء احمد حسيني علام","مروة عبدالمعبود عبدالرازق","https://teams.microsoft.com/meet/3921146245351789?p=3psggH6vasdUHpYNfm"],[7,"على عبدالوهاب محمد علام","بسام عبدالستار زيدان","أسماء محمد حنفى السيد","علياء محمود محمد محمود الوكيل","https://teams.microsoft.com/meet/3514771320775846?p=umZReHVoBeb0P75H8Z"],[8,"على عبدالوهاب محمد علام","بسام عبدالستار زيدان","مروة عبدالغفار شرقاوى الكبابى","شيماء ناصر محيى الدين حسين","https://teams.microsoft.com/meet/3311305837730740?p=YzxJjXeySR3eIypy73"],[9,"على عبدالوهاب محمد علام","بسام عبدالستار زيدان","هدى السيد محمد السيد","جيهان متولي غريب كمون","https://teams.microsoft.com/meet/3305642964159394?p=Kuzbp3cnv5dGX9SZG0"],[10,"على عبدالوهاب محمد علام","بسام عبدالستار زيدان","اميرة ابو الحمايد عبدالكريم","شيماء محمد محمد مصطفى شقريه","https://teams.microsoft.com/meet/3723130235688527?p=9VRNj1OPsoqjTXBTBZ"],[11,"وليد محمد على السيد","محمد السيد حامد حسانين","ايمان محمود احمد رجب","دينا قدرى أنور إبراهيم","https://teams.microsoft.com/l/meetup-join/19%3ameeting_NzJmNTA2MGQtOGU0Yi00MzgzLTg3ZDgtZDhjMzk1NWRlMmRh%40thread.v2/0?context=%7b%22Tid%22%3a%226ee2382e-9835-4eda-865d-83be47122d9a%22%2c%22Oid%22%3a%22874316ab-a72b-43dd-b117-561f0e708bbd%22%7d"],[12,"وليد محمد على السيد","محمد السيد حامد حسانين","ايمان المحمدي عبدالفتاح على","جهاد سعيد موسى سليمان","https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZThkY2I0YjYtMGU1MS00YjFhLTgzMWUtYjE1ODM3Y2M2ZWU1%40thread.v2/0?context=%7b%22Tid%22%3a%226ee2382e-9835-4eda-865d-83be47122d9a%22%2c%22Oid%22%3a%22874316ab-a72b-43dd-b117-561f0e708bbd%22%7d"],[13,"وليد محمد على السيد","محمد السيد حامد حسانين","امل سعد على أبو زهو","هبه الشربيني محمد أحمد","https://teams.microsoft.com/l/meetup-join/19%3ameeting_NWE4OTlkODQtN2MwNi00YmNmLTgwYjUtYzIyMzU2YTk5Yzhj%40thread.v2/0?context=%7b%22Tid%22%3a%226ee2382e-9835-4eda-865d-83be47122d9a%22%2c%22Oid%22%3a%22874316ab-a72b-43dd-b117-561f0e708bbd%22%7d"],[14,"وليد محمد على السيد","محمد السيد حامد حسانين","رباب عزت مصطفى مصطفى","وسام عشري محمود عبد الحفيظ","https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjMxNjBjNzEtMzMxYS00MmE0LWJhM2EtNGIzOGI2MWNhMTBj%40thread.v2/0?context=%7b%22Tid%22%3a%226ee2382e-9835-4eda-865d-83be47122d9a%22%2c%22Oid%22%3a%22874316ab-a72b-43dd-b117-561f0e708bbd%22%7d"],[15,"وليد محمد على السيد","محمد السيد حامد حسانين","داليا الشامى احمد عبدالحميد","فاطمه السيد حسنين السيد","https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZDFmMDE0NWQtNTM0Yi00OGUxLTkyOTYtMzkyNmYzMzFiYzRl%40thread.v2/0?context=%7b%22Tid%22%3a%226ee2382e-9835-4eda-865d-83be47122d9a%22%2c%22Oid%22%3a%22874316ab-a72b-43dd-b117-561f0e708bbd%22%7d"],[16,"وليد محمد على السيد","محمد السيد حامد حسانين","وائل رجب خضر عبد الرازق","أحمد صلاح خليل إبراهيم","https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmRjNjU4MmYtMmNjOS00YWFjLWJhMDctZmM2OTI5ZTg2YTUx%40thread.v2/0?context=%7b%22Tid%22%3a%226ee2382e-9835-4eda-865d-83be47122d9a%22%2c%22Oid%22%3a%22874316ab-a72b-43dd-b117-561f0e708bbd%22%7d"],[17,"وليد محمد على السيد","محمد السيد حامد حسانين","ممتاز محمد كمال الدين شحات","أحمد إبراهيم عبد البصير عبد السلام","https://teams.microsoft.com/l/meetup-join/19%3ameeting_NDEwNTAwN2EtZTUyYi00ZTk1LTk3OGEtNmRkNDk2ODVjM2Ey%40thread.v2/0?context=%7b%22Tid%22%3a%226ee2382e-9835-4eda-865d-83be47122d9a%22%2c%22Oid%22%3a%22874316ab-a72b-43dd-b117-561f0e708bbd%22%7d"],[18,"وليد محمد على السيد","محمد السيد حامد حسانين","حامد رضوان عبدالله فرج","نور محمد حسن عبدالرحيم","https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDQzMzcyMzgtMTQ5Yi00MDMxLTk2OTctNGY3MDM5ODgzN2Iy%40thread.v2/0?context=%7b%22Tid%22%3a%226ee2382e-9835-4eda-865d-83be47122d9a%22%2c%22Oid%22%3a%22874316ab-a72b-43dd-b117-561f0e708bbd%22%7d"],[19,"وليد محمد على السيد","محمد السيد حامد حسانين","مسعد عبدالعظيم مأمون عبدالرازق","محمد مصطفى محمد حسان","https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZjA2MDY2NmItMDc1OC00YThlLTljMTEtZTllMzFlMjYwNjE5%40thread.v2/0?context=%7b%22Tid%22%3a%226ee2382e-9835-4eda-865d-83be47122d9a%22%2c%22Oid%22%3a%22874316ab-a72b-43dd-b117-561f0e708bbd%22%7d"],[20,"وليد محمد على السيد","محمد السيد حامد حسانين","احمد محمد محمد قناوي","جمال أحمد محمد عثمان","https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjcyMzQxNmUtZDM5NS00YTFiLTg4YmMtZjQyNDIyODllNzY3%40thread.v2/0?context=%7b%22Tid%22%3a%226ee2382e-9835-4eda-865d-83be47122d9a%22%2c%22Oid%22%3a%22874316ab-a72b-43dd-b117-561f0e708bbd%22%7d"],[21,"احمد رمضان سيد سنجق","ابراهيم حسن محمد شولح","مروة نبيل محمد عبد الجليل","ناهد أحمد محمد قرني","https://teams.microsoft.com/l/meetup-join/19%3ameeting_NWJmY2FhZWYtNzM5Yi00NjkzLWExNjgtZDFlNDRlMWVlOTdl%40thread.v2/0?context=%7b%22Tid%22%3a%226ee2382e-9835-4eda-865d-83be47122d9a%22%2c%22Oid%22%3a%226b553f9c-4f0a-4c85-a559-63b0e2309030%22%7d"],[22,"احمد رمضان سيد سنجق","ابراهيم حسن محمد شولح","أميرة وجيه صبري عبد العزيز","داليا فكرى محمد العلواني","https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZDM4OGQyNzctZTU4Yi00NjA3LTk5MjAtMmJjNmY1YTYzMjk4%40thread.v2/0?context=%7b%22Tid%22%3a%226ee2382e-9835-4eda-865d-83be47122d9a%22%2c%22Oid%22%3a%226b553f9c-4f0a-4c85-a559-63b0e2309030%22%7d"],[23,"احمد رمضان سيد سنجق","ابراهيم حسن محمد شولح","سحر احمد نعيم ابراهيم","خيرات احمد محمد محمد ابودية","https://teams.microsoft.com/l/meetup-join/19%3ameeting_Zjg1ZDQ1ODMtNjc1Yy00NDZhLWJlYzEtNzk4MDY1ZDRiYzNh%40thread.v2/0?context=%7b%22Tid%22%3a%226ee2382e-9835-4eda-865d-83be47122d9a%22%2c%22Oid%22%3a%226b553f9c-4f0a-4c85-a559-63b0e2309030%22%7d"],[24,"احمد رمضان سيد سنجق","ابراهيم حسن محمد شولح","هالة حسن حسن عبدالدايم","أمانى حسن المتولى منصور","https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTBkYjBlNGYtZjg0OC00NjUxLWEzOWEtMTg2YWViMDgzOTA3%40thread.v2/0?context=%7b%22Tid%22%3a%226ee2382e-9835-4eda-865d-83be47122d9a%22%2c%22Oid%22%3a%226b553f9c-4f0a-4c85-a559-63b0e2309030%22%7d"],[25,"احمد رمضان سيد سنجق","ابراهيم حسن محمد شولح","عزة أحمد السيد علي","نعمه صبرى محمد نمير","https://teams.microsoft.com/l/meetup-join/19%3ameeting_NDVjN2UxZjgtMGM2MS00Nzg5LTlhYmMtOWNmNmUyMzE5MWYx%40thread.v2/0?context=%7b%22Tid%22%3a%226ee2382e-9835-4eda-865d-83be47122d9a%22%2c%22Oid%22%3a%226b553f9c-4f0a-4c85-a559-63b0e2309030%22%7d"],[26,"احمد رمضان سيد سنجق","ابراهيم حسن محمد شولح","ورده احمد امام عبدالرحمن","وفاء احمد محمد السيد","https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWQzYzhkZWUtNzgyZi00ZTU2LWJkNDctMjUzMTQwNWRkZGJl%40thread.v2/0?context=%7b%22Tid%22%3a%226ee2382e-9835-4eda-865d-83be47122d9a%22%2c%22Oid%22%3a%226b553f9c-4f0a-4c85-a559-63b0e2309030%22%7d"],[27,"احمد رمضان سيد سنجق","ابراهيم حسن محمد شولح","عبدالستار إبراهيم عبدالستار","محمد دسوقى محمد ابوزيد","https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZTNmYjA0YTQtNzdhYy00MmVkLTkyODQtZDdhY2NjMDM0MzQ0%40thread.v2/0?context=%7b%22Tid%22%3a%226ee2382e-9835-4eda-865d-83be47122d9a%22%2c%22Oid%22%3a%226b553f9c-4f0a-4c85-a559-63b0e2309030%22%7d"],[28,"احمد رمضان سيد سنجق","ابراهيم حسن محمد شولح","محمود علي هنداوي عبدالمنعم","حسام ندا محمد أبو الفتوح","https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTA1OTU5ZDAtMzUyZC00NTk5LTgyMmItMDc4NmNmZGNkMDUx%40thread.v2/0?context=%7b%22Tid%22%3a%226ee2382e-9835-4eda-865d-83be47122d9a%22%2c%22Oid%22%3a%226b553f9c-4f0a-4c85-a559-63b0e2309030%22%7d"],[29,"احمد رمضان سيد سنجق","ابراهيم حسن محمد شولح","يحيى محمد على السيد","ايمن محمد رجب على","https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZDNhNjIyMTYtZjY4Mi00YTg1LTgwNTgtYWI3ZmNkZGNlMWQ0%40thread.v2/0?context=%7b%22Tid%22%3a%226ee2382e-9835-4eda-865d-83be47122d9a%22%2c%22Oid%22%3a%226b553f9c-4f0a-4c85-a559-63b0e2309030%22%7d"],[30,"احمد رمضان سيد سنجق","ابراهيم حسن محمد شولح","أحمد بدري احمد سليم","محمد سعيد فتحى عبد العزيز","https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTVmM2MwY2YtMjVhYS00YjdmLTg5YjktNDdkNDIzNGJlOGJh%40thread.v2/0?context=%7b%22Tid%22%3a%226ee2382e-9835-4eda-865d-83be47122d9a%22%2c%22Oid%22%3a%226b553f9c-4f0a-4c85-a559-63b0e2309030%22%7d"],[31,"محمد مصطفى عويس محمود","ايمن احمد محمد حافظ ابراهيم","عبداللطيف السيد عبداللطيف السيد","على حبيب الله حسن","https://teams.microsoft.com/meet/3689978036297255?p=xFSp7AeOGQXBAnWUMU"],[32,"محمد مصطفى عويس محمود","ايمن احمد محمد حافظ ابراهيم","حسين محمد حسين إبراهيم","محمد هانى محمد عبدالموجود","https://teams.microsoft.com/meet/3398116155473745?p=z0Gu6RBmIc3uEFpJJq"],[33,"محمد مصطفى عويس محمود","ايمن احمد محمد حافظ ابراهيم","محمد رمضان سيد سنجق","محمود حسين محمد حزين","https://teams.microsoft.com/meet/3665410259271604?p=H55wBQzANF4ZGVqfJW"],[34,"محمد مصطفى عويس محمود","ايمن احمد محمد حافظ ابراهيم","عبدالجواد فتوح محمد خضر","محمد فتحى سيد حمد","https://teams.microsoft.com/meet/3440552710834768?p=JdXJ6Y6ALx8m6r9UJP"],[35,"محمد مصطفى عويس محمود","ايمن احمد محمد حافظ ابراهيم","عبد الله محمود السيد","مرفت عبدالعال عمر درويش","https://teams.microsoft.com/meet/3183012056649160?p=CX3tZEKsymiOsDb0qL"],[36,"محمد مصطفى عويس محمود","ايمن احمد محمد حافظ ابراهيم","عزة احمد محمد جاد","هالة رجب عبدالرحيم فرغل","https://teams.microsoft.com/meet/3300481110580477?p=eTQzh2ISzf0SqCejCV"],[37,"محمد مصطفى عويس محمود","ايمن احمد محمد حافظ ابراهيم","نجلاء حلمى حسين احمد","صباح محمد محمد السيد","https://teams.microsoft.com/meet/3494814416105437?p=cmpTaVGeQzg7tQZMt4"],[38,"محمد مصطفى عويس محمود","ايمن احمد محمد حافظ ابراهيم","زينب عبدالنبى عطيه محمد","حنان عبد المنعم على على","https://teams.microsoft.com/meet/3850439190248245?p=gIbE2YhrFJI0J4LaL7"],[39,"محمد مصطفى عويس محمود","ايمن احمد محمد حافظ ابراهيم","شيماء حسن حسن عبدالدايم","أميمه جابر أحمد سيد","https://teams.microsoft.com/meet/3960238605662345?p=GsonI5usZwZYK9PYrF"],[40,"محمد مصطفى عويس محمود","ايمن احمد محمد حافظ ابراهيم","دعاء ابراهيم عبد المعبود","اسماء جمال حباسي حسن","https://teams.microsoft.com/meet/3181105573187054?p=a7jcKGVPCRRyY26T6J"]];
+
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const norm=s=>String(s).replace(/[\u0660-\u0669]/g,c=>c.charCodeAt(0)-0x660).replace(/[\u064B-\u065F\u0670\u0640]/g,'')
+  .replace(/[أإآٱ]/g,'ا').replace(/ى/g,'ي').replace(/ة/g,'ه').replace(/ؤ/g,'و').replace(/ئ/g,'ي').replace(/\s+/g,' ').trim().toLowerCase();
+const uniq=i=>[...new Set(ROWS.map(r=>r[i]))];
+const SCI=uniq(1), TECH=uniq(2);
+const HAY=ROWS.map(r=>norm(r.join(' | ')).replace(/https?:\S+/,''));
+
+/* إحصائيات */
+$('stats').innerHTML=[
+  [ROWS.length,'مجموعة'],[SCI.length,'مشرفون علميون'],[TECH.length,'مشرفون تقنيون'],[uniq(4).length,'منسقون'],[uniq(3).length,'محفظون']
+].map(s=>`<div class="stat"><b>${s[0]}</b><span>${s[1]}</span></div>`).join('');
+
+/* القوائم */
+const fill=(el,all,list)=>{ el.innerHTML='<option value="">'+all+'</option>'+list.map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join(''); };
+fill($('fs'),'كل المشرفين العلميين',SCI); fill($('ft'),'كل المشرفين التقنيين',TECH);
+
+function safeLink(u){ return /^https:\/\/teams\.microsoft\.com\//.test(u)?u:'#'; }
+function card(r,idx){
+  return `<article class="group">
+    <div class="g-top"><span class="num">${r[0]}</span><span class="g-title">المجموعة رقم ${r[0]}</span></div>
+    <div class="g-body">
+      <div class="role"><div class="k">🎓 المشرف العلمي</div><div class="v">${esc(r[1])}</div></div>
+      <div class="role"><div class="k">🛠 المشرف التقني</div><div class="v">${esc(r[2])}</div></div>
+      <div class="role"><div class="k">📖 المحفظ</div><div class="v">${esc(r[3])}</div></div>
+      <div class="role"><div class="k">🧭 المنسق</div><div class="v">${esc(r[4])}</div></div>
+    </div>
+    <div class="actions">
+      <a class="teams" href="${esc(safeLink(r[5]))}" target="_blank" rel="noopener noreferrer">فتح رابط Teams ◂</a>
+      <button class="copy" type="button" data-i="${idx}" title="نسخ الرابط">نسخ الرابط</button>
+    </div>
+  </article>`;
+}
+function render(){
+  const q=norm($('q').value), fs=$('fs').value, ft=$('ft').value;
+  const toks=q.split(' ').filter(Boolean);
+  const out=[];
+  ROWS.forEach((r,i)=>{
+    if(fs&&r[1]!==fs) return; if(ft&&r[2]!==ft) return;
+    if(toks.length){
+      if(/^\d+$/.test(q)){ if(String(r[0])!==q) return; }
+      else if(!toks.every(t=>HAY[i].indexOf(t)!==-1)) return;
+    }
+    out.push(card(r,i));
+  });
+  $('grid').innerHTML=out.length?out.join(''):'<div class="empty">لا توجد مجموعات مطابقة للبحث.</div>';
+  $('count').textContent='يعرض '+out.length+' من '+ROWS.length+' مجموعة';
+}
+['input','change'].forEach(ev=>{ $('q').addEventListener(ev,render); $('fs').addEventListener(ev,render); $('ft').addEventListener(ev,render); });
+$('reset').onclick=()=>{ $('q').value=''; $('fs').value=''; $('ft').value=''; render(); $('q').focus(); };
+
+/* نسخ الرابط */
+function toast(m){ const t=$('toast'); t.textContent=m; t.classList.add('show'); clearTimeout(toast.h); toast.h=setTimeout(()=>t.classList.remove('show'),1800); }
+$('grid').addEventListener('click',e=>{
+  const b=e.target.closest('button.copy'); if(!b) return;
+  const url=ROWS[+b.dataset.i][5];
+  const done=()=>toast('تم نسخ الرابط');
+  if(navigator.clipboard&&window.isSecureContext){ navigator.clipboard.writeText(url).then(done,()=>fallback(url,done)); } else fallback(url,done);
+});
+function fallback(text,cb){ const ta=document.createElement('textarea'); ta.value=text; ta.style.position='fixed'; ta.style.opacity='0'; document.body.appendChild(ta); ta.select();
+  try{ document.execCommand('copy'); cb(); }catch(e){ toast('تعذّر النسخ'); } ta.remove(); }
+render();
+</script>
+</body>
+</html>
